@@ -1,0 +1,47 @@
+.flex{
+    display: flex;max-width: 950px;margin: 0 auto;
+}
+strong{
+    font-family: sans-serif;
+    font-size: 19px;
+}
+strong:hover{
+    text-decoration: underline;
+}
+.c-o-r-p{
+    margin: 10px 36px 10px 0 ;
+    border: 1px solid red;
+    color: red;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.c-o-r-p:hover{
+    background-color: red;
+    color: aliceblue;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    background-color: red;
+    color: aliceblue;
+}
+.par{
+    border: 1px solid grey;
+    box-shadow: 0 0 7px 4px;
+    margin: 0 10px;
+}
+.txt{
+    margin: 0 30px;
+}
+p{
+    margin: 10px 0px;
+}
+.span-p{
+    font-weight: bold;
+    font-size: 22px;
+
+}
