@@ -1,0 +1,41 @@
+body {
+    margin: 0 auto;
+}
+
+.parent {
+    font-size: 25px;
+    font-weight: bold;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(130deg, purple, black);
+    color: yellowgreen;
+    font-family: sans-serif;
+}
+
+.l-i-par {
+    display: flex;
+}
+
+.logo {
+    padding: 0 10px;
+}
+
+.search-par {}
+
+.search {
+    padding: 5px 0;
+    outline: none;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+}
+
+.inner-list {
+    padding: 0 15px;
+    cursor: pointer;
+}
