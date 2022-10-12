@@ -1,0 +1,21 @@
+
+.par{
+    text-align: center;
+    max-width: 300px;
+    background-color: lavender;
+    color: crimson;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+.parag{
+    font-size: 20px;
+    font-weight: bold;
+}
+.but{
+    padding: 5px 2px;
+    margin-top: 5px;
+    background-image: linear-gradient(45deg,yellowgreen,tomato);
+}
