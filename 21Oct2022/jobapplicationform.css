@@ -1,0 +1,71 @@
+.disp{    padding: 8px;
+    font-weight: bold;
+    justify-content: space-around;
+    max-width: 700px;
+    display: flex;
+    font-size: 20px;
+    background-color: skyblue;
+}
+.in-put{
+    padding: 9px 77px 9px 13px;
+
+}
+.add{
+    padding: 8px 81px;
+    font-weight: bold;
+    /* justify-content: space-around; */
+    max-width: 554px;
+    display: flex;
+    font-size: 20px;
+    background-color: skyblue;
+    /* margin: 0px 30px; */
+}
+.add-input{
+    margin-left: -27px;
+    padding: 25px 415px 25px 15px;
+
+}
+.date{
+    padding: 8px;
+    font-weight: bold;
+    max-width: 700px;
+    display: flex;
+    font-size: 20px;
+}
+.date-input{
+    margin: 0px -30px 0px 9px;
+    padding: 8px 94px 8px 49px;
+}
+.date-lab{
+    padding: 10px;
+}
+.up-input{
+    border: 1px solid black;
+    padding: 8px 0px 8px 0px;
+  
+
+}
+.date-parent{
+    margin-right: 118px;
+    margin-left: 33px;
+
+}
+.add-text{
+    margin-left: -27px;
+
+}
+.f-orm{
+    max-width: 700px;
+    background-color: skyblue;
+}
+button{
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 313px;
+}
+h2{
+    text-align: center;
+
+}

@@ -1,0 +1,16 @@
+$color:red;
+$bgcolor:yellowgreen;
+$margin:0px auto;
+$width:100%;
+$max-width:550px;
+
+
+#wrapper{
+    background-color: $bgcolor;
+    margin: $margin;
+    width: $width;
+    max-width: $max-width;
+}
+#btn{
+    color: $color;
+}

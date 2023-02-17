@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calci</title>
+    <script src="calci.js"></script>
+    <link rel="stylesheet" href="calculate.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <form class="calci" name="calculator">
+                <input type="text" class="screen" readonly name="screen">
+                <div><input onclick="Clear()" value="Clear" type="button" class="btn"></div>
+                <div><input onclick="Mybutton(this)" value="1" type="button" class="btn">
+                    <input onclick="Mybutton(this)" value="2" type="button" class="btn">
+                    <input onclick="Mybutton(this)" value="3" type="button" class="btn">
+                    <input onclick="Mybutton(this)" value="+" type="button" class="btn">
+                </div>
+                <div><input onclick="Mybutton(this)" value="4" type="button" class="btn">
+                    <input onclick="Mybutton(this)" value="5" type="button" class="btn">
+                    <input onclick="Mybutton(this)" value="6" type="button" class="btn">
+                    <input onclick="Mybutton(this)" value="-" type="button" class="btn">
+                </div>
+                <div><input onclick="Mybutton(this)" value="7" type="button" class="btn">
+                    <input onclick="Mybutton(this)" value="8" type="button" class="btn">
+                    <input onclick="Mybutton(this)" value="9" type="button" class="btn">
+                    <input onclick="Mybutton(this)" value="*" type="button" class="btn">
+                </div>
+                <div><input onclick="Mybutton(this)" value="0" type="button" class="btn">
+                    <input onclick="Mybutton(this)" value="/" type="button" class="btn">
+                    <input onclick="Mybutton(this)" value="/" type="button" class="btn">
+                    <input onclick="Equal(this)" value="=" type="button" class="btn">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

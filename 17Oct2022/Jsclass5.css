@@ -1,0 +1,15 @@
+form{
+    max-width: 200px;
+    text-align: center;
+    background-color: cornflowerblue;
+    margin: 0px auto;
+    padding: 20px;
+}
+.usname{
+    margin: 10px;
+}
+.pword{
+    margin: 10px;
+}
+button{margin: 10px;
+}

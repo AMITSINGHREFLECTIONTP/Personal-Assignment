@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: darkgray;
+}
+
+.inner-parent {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-side {
+    max-width: 350px;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+h3:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkkhaki;
+}
+
+.image {
+    margin: 40px;
+    max-width: 100px;
+    height: 100px;
+    transition: 5s;
+}
+
+
+.image:hover {
+    rotate: 45deg;
+}
+
+.html-ratio {
+    background-image: linear-gradient(to right, #fff 85%, black 15%);
+    margin: 10px 70px;
+    border: 1px solid;
+    font-size: 10px;
+}
+
+hr {
+    border: 1px solid #fff;
+    margin: 20px 0;
+}
+
+.right-side {
+    max-width: 850px;
+    color: black;
+    background-color: #fff;
+    width: 100%
+}
+
+.css-ratio {
+    background-image: linear-gradient(to right, #fff 85%, black 15%);
+    margin: 10px 70px;
+    border: 1px solid;
+    font-size: 10px;
+}
+
+.java-ratio {
+    background-image: linear-gradient(to right, #fff 70%, black 30%);
+    margin: 10px 70px;
+    border: 1px solid;
+    font-size: 10px;
+}
+
+.social {
+    margin: 0 80px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.fb {
+    height: 35px;
+    max-width: 35px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    padding: 5px;
+    color: black;
+}
+
+.fbook {
+    font-size: 25px;
+    transform: rotate(-45deg);
+    padding: 3px;
+}
+
+figcaption {
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.r-hr {
+    color: #9090;
+}
+
+
+
+
+.A-name {
+    font-size: 50px;
+    color: aquamarine;
+    transform: rotate(90deg);
+    margin: 0px;
+    max-width: 200px;
+}
+
+.A-name:hover {
+    transform: rotate(0deg);
+}
+
+p img {
+    background-size: cover;
+    width: 100%;
+}
